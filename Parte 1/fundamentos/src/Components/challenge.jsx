@@ -1,7 +1,7 @@
 const Chanllenge = () => {
 
     const n1 = 10
-    const n2 = 17
+    const n2 = 18
 
     return(
         <div>

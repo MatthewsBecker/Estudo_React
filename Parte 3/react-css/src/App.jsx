@@ -20,7 +20,7 @@ function App() {
       <p style={{ color: "blue", padding: "23px", borderTop: "2px solid red" }} >Este paragrafo foi estilizado com css inline</p>
 
       {/* Css inline dinamico */}
-      <h2 style={n < 10 ? ({color:"green"}) : ({color: "red"})}>Css dinamico</h2>
+      <h2 style={n < 10 ? ({color:"orange"}) : ({color: "red"})}>Css dinamico</h2>
 
       {/* Classe dinamica */}
       <h3 className={estado ? "ativado" : "desativado" } >Este texto tem classe dinamica</h3>
